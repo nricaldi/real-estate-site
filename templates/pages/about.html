@@ -1,5 +1,7 @@
 {% extends  'base.html' %}
 
+{% block title %} | About {% endblock %} 
+
 {% load static %}
 
 {% block content %}
@@ -36,9 +38,7 @@
           <h2>We Search For The Perfect Home</h2>
           <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
           <img src="{% static '/img/about.jpg' %}" alt="">
-          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis esse officia repudiandae ad saepe ex, amet
-            neque quod accusamus rem quia magnam magni dolorum facilis ullam minima perferendis? Exercitationem at quaerat
-            commodi id libero eveniet harum perferendis laborum molestias quia.</p>
+          <p class="mt-4">For years, millions of home shoppers have turned to BT Realestate® to find their dream home. Operated by Move, Inc., BT Realestate® offers a comprehensive list of for-sale properties, as well as the information and tools to make informed real estate decisions. Today, more than ever, BT Realestate® is The Home of Home Search℠.BT Realestate® also offers homeowners a bevy of useful tools and resources through the My Home℠ dashboard. My Home℠ dashboard allows property owners to manage their home like the important investment it is by tracking their home’s value over time, researching and managing home improvements, and scouting other similar properties in the neighborhood.</p>
         </div>
         <div class="col-md-4">
 
@@ -67,7 +67,8 @@
   <!-- Work -->
   <section id="work" class="bg-dark text-white text-center">
     <h2 class="display-4">We Work For You</h2>
-    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit aperiam, unde aliquid at similique!</h4>
+    <br>
+    <h4>Finding the home fit for you was never easier.</h4>
     <hr>
     <a href="listings.html" class="btn btn-secondary text-white btn-lg">View Our Featured Listings</a>
   </section>
