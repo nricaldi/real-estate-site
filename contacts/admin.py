@@ -7,5 +7,6 @@ class ContactAdmin(admin.ModelAdmin):
     list_display_links = ('id', 'name',)
     search_fields = ('name', 'email', 'listing')
     list_per_page = 25
+    readonly_fields = ('user_id', 'contact_date',)
 
 admin.site.register(Contact, ContactAdmin)
